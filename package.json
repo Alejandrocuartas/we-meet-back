@@ -1,0 +1,50 @@
+{
+    "name": "we-meet-back",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": "16.x"
+    },
+    "scripts": {
+        "test": "jest",
+        "dev": "ts-node ./src/index.ts",
+        "start": "node ./dist/index.js",
+        "build": "npm run clean && tsc --build",
+        "lint": "eslint . --ext .ts",
+        "clean": "rimraf ./dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alejandrocuartas/we-meet-back.git"
+    },
+    "author": "we-meet-team",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Alejandrocuartas/we-meet-back/issues"
+    },
+    "homepage": "https://github.com/Alejandrocuartas/we-meet-back#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.15",
+        "@types/jest": "^29.2.5",
+        "@types/node": "^18.11.18",
+        "@types/supertest": "^2.0.12",
+        "@typescript-eslint/eslint-plugin": "^5.48.1",
+        "@typescript-eslint/parser": "^5.48.1",
+        "eslint": "^8.32.0",
+        "jest": "^29.3.1",
+        "supertest": "^6.3.3",
+        "ts-jest": "^29.0.5",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "pg": "^8.8.0",
+        "pg-hstore": "^2.3.4",
+        "rimraf": "^4.0.5",
+        "sequelize": "^6.28.0",
+        "socket.io": "^4.5.4"
+    }
+}
