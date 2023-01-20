@@ -5,6 +5,10 @@
 1. Clone the repository to your local machine using the following command:
 
       git clone https://github.com/Alejandrocuartas/we-meet-back.git
+      
+2. When it is already cloned, you should create a new branch called development:
+
+      git branch development
 
 ## Making changes
 
