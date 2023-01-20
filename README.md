@@ -54,4 +54,7 @@
       git pull
       
 ## Main branch
-  ### The development branch will be merged into the main branch when each sprint/milestone has ended. This is to protect it from possible errors.
+1. The development branch will be merged into the main branch when each sprint/milestone has ended. This is to protect it from possible errors.
+2. Once the development branch is merged into the main branch, you should be in your local repo, locate in the main branch and pull the latest changes by running the following command:
+
+      git pull
