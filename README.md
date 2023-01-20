@@ -14,7 +14,7 @@
 
 1. Before making any changes, make sure to pull the latest changes from the remote repository by running the following command and beeing in the development branch of your local repo:
 
-      git pull
+      git pull origin development
 
 2. Create a new branch for your changes using the following command:
 
@@ -55,10 +55,10 @@
 
 3. Finally, update your local copy of the development branch by running:
 
-      git pull
+      git pull origin development
       
 ## Main branch
 1. The development branch will be merged into the main branch when each sprint/milestone has ended. This is to protect it from possible errors.
 2. Once the development branch is merged into the main branch, you should be in your local repo, locate in the main branch and pull the latest changes by running the following command:
 
-      git pull
+      git pull origin main
