@@ -28,10 +28,14 @@
 
       npm install
 
-5. Make your changes and stage them using the following command:
+5. Don't forget to lint the code when you have made the changes with the following command:
+
+      npm run lint:fix
+
+6. Stage your changes using the following command:
 
       git add .
-
+      
 6. Commit your changes using the following command:
 
       git commit -m "A descriptive commit message"
