@@ -10,6 +10,12 @@
 
       git branch development
 
+## Config
+
+1. Make sure you are using Node version >16
+
+2. Make sure you have settled the environment variables
+
 ## Making changes
 
 1. Before making any changes, make sure to pull the latest changes from the remote repository by running the following command and beeing in the development branch of your local repo:
@@ -35,7 +41,7 @@
 6. Stage your changes using the following command:
 
       git add .
-      
+
 6. Commit your changes using the following command:
 
       git commit -m "A descriptive commit message"
