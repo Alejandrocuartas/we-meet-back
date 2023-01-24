@@ -29,6 +29,20 @@
         "semi": [
             "error",
             "always"
+        ],
+        "comma-dangle": [
+            "error", 
+            "always-multiline"
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1
+            }
         ]
     }
 }
